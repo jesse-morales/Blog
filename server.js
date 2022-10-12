@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
         createdAt: new Date(),
         description: 'Test Description'
     }]
-    res.render('index', {articles: articles})
+    res.render('articles/index', {articles: articles})
 })
 
 
