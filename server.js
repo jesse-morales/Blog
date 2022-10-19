@@ -1,6 +1,9 @@
 const express = require('express')
 const articleRouter = require('./routes/articles')
 const app = express()
+const postgres = require('./db/index.js')
+
+
 
 app.set('view engine', 'ejs')
 
